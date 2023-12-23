@@ -1,7 +1,8 @@
 .rainbow {
     font-family: monospace;
     font-size: 3em;
-    animation: rainbow 1s infinite;
+    animation: rainbow 5s infinite;
+    text-shadow: -4px 4px #292929
   }
 
 
