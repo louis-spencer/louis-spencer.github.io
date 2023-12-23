@@ -2,7 +2,9 @@
     font-family: monospace;
     font-size: 3em;
     animation: rainbow 3s infinite;
-    text-shadow: -2px 2px 2px #292929;
+    text-shadow: 
+        -2px 2px 0px #404040
+        -4px 4px 0px #131313;
   }
 
 
