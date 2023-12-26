@@ -1,5 +1,9 @@
+body {
+  font-family: monospace;
+  outline: auto;
+}
+
 .rainbow {
-    font-family: monospace;
     font-size: 3em;
     animation: rainbow 3s infinite;
     text-shadow: 
@@ -7,6 +11,60 @@
         -4px 4px 0px #131313;
   }
 
+.static {
+  font-size: 3em;
+  color: white;
+  text-shadow: -2px 2px 0px cadetblue;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content p {
+  display: inline;
+  width: 33%;
+}
+
+nav ul {
+  /* gets rid of bullet points */
+  list-style-type: none;
+  /* remove browser default whitespace settings */
+  margin: 0;
+  padding: 0;
+  background-color: #404040;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  animation: rainbow 3s infinite;
+  background-color: white;
+}
+
+/* .empty {
+  display:inline;
+  width: 30%;
+} */
+
+* {
+  outline:auto;
+}
 
 @keyframes rainbow{
   100%,0%{
