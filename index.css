@@ -3,3 +3,109 @@
     font-size: 15px;
     /* outline: auto; */
 }
+
+* {
+    outline:auto;
+  }
+
+.welcome {
+    cursor: help;
+}
+
+
+
+.projects {
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    display: flex;
+    padding-inline: 5px;
+    /* padding: 5px; */
+    gap: 1%;
+    justify-content: space-evenly;
+}
+
+.projects .project_item {
+    background-color: steelblue;
+    width: 48%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+}
+
+.projects .project_item img {
+    max-height: 200px;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.projects .project_item p {
+    inline-size: 150px;
+    word-wrap: break-word;
+}
+
+/*
+.projects .project_item {
+    display: inline;
+    width: 50%;
+    background-color: steelblue;
+    padding: 5px;
+    background-color: blue;
+    padding: 5px;
+}
+
+.projcts .project_item * {
+    flex: 50%;
+    padding: 5px;
+}
+
+ .projects img {
+    height: 100px;
+    width: auto;
+} */
+
+.welcome h {
+    font-size: 3em;
+    animation: rainbow 3s infinite;
+    text-shadow: 
+        -2px 2px 0px #131313;
+    border: none;
+}
+
+@keyframes rainbow{
+    100%,0%{
+      color: rgb(255,0,0);
+    }
+    8%{
+      color: rgb(255,127,0);
+    }
+    16%{
+      color: rgb(255,255,0);
+    }
+    25%{
+      color: rgb(127,255,0);
+    }
+    33%{
+      color: rgb(0,255,0);
+    }
+    41%{
+      color: rgb(0,255,127);
+    }
+    50%{
+      color: rgb(0,255,255);
+    }
+    58%{
+      color: rgb(0,127,255);
+    }
+    66%{
+      color: rgb(0,0,255);
+    }
+    75%{
+      color: rgb(127,0,255);
+    }
+    83%{
+      color: rgb(255,0,255);
+    }
+    91%{
+      color: rgb(255,0,127);
+    }
+}
